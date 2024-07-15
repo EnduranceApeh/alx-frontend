@@ -528,6 +528,8 @@ ul.row{
     float: left;
     padding: 0.5rem;
 }
+
+/* Add dark theme to section */
 [data-section-theme=“dark”] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
