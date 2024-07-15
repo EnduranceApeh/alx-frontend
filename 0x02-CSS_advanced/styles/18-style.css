@@ -350,6 +350,7 @@
 
   /* Home page styling */
 :root {
+    --root-padding: 8px;
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -433,7 +434,7 @@ body {
 }
 .nav .nav-link{
   display: block;
-  padding: 4px 8px;
+  padding: calc(0.5 * var(--root-padding)) calc(var(--root-padding));
 }
 .nav .nav-link:hover{
   color: var(--nav-item-link-hover)
