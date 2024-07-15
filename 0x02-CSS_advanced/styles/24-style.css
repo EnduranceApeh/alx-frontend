@@ -508,13 +508,18 @@ ul.row{
     width: 50%;
 
 }
-.card-service .card-title{
+.card-services .card-title{
     margin: 0;
 }
-.card-service a{
+.card-services a{
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
+    text-decoration: none;
+}
+.card-services a:hover{
+    color: var(--color-white);
+    background: var(--color-primary);
     text-decoration: none;
 }
 .footer{
