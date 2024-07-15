@@ -402,7 +402,7 @@
     /* button varaible */
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
-    --button-boredr: 0.2rem solid var(--color-primary);
+    --button-border: 0.2rem solid var(--color-primary);
     --button-color: var(--color-black);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
