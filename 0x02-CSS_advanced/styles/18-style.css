@@ -350,7 +350,6 @@
 
   /* Home page styling */
 :root {
-    --root-padding: 8px;
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -396,7 +395,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04em;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-margin)) 0;
+    --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
 }
 *,
@@ -434,7 +433,7 @@ body {
 }
 .nav .nav-link{
   display: block;
-  padding: calc(0.5 * var(--root-padding)) calc(var(--root-padding));
+  padding: 0.5rem 1rem;
 }
 .nav .nav-link:hover{
   color: var(--nav-item-link-hover)
